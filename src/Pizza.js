@@ -153,7 +153,7 @@ const Pizza = (props) => {
                     onChange = {inputChange}
                 />
             </label><br/>
-                <button disabled ={buttonDisabled}>Order</button>
+                <button disabled ={buttonDisabled} name='buttonName'>Order</button>
         </form>
     )
 }
